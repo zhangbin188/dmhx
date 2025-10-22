@@ -22,7 +22,7 @@ return`vless://${C.uuid}@${displayIp}:${port}?encryption=none&security=tls&type=
 createQueue=()=>{let queue=Promise.resolve();return fn=>queue=queue.then(fn).catch(()=>{})}
 export default{
 async fetch(req,env,ctx){
-if(!ERR4){ERR4=new Response(null,{status:400});ERR5=new Response(null,{status:502});redirect=Response.redirect('https://github.com/Meibidi/kuangbao',302)}
+if(!ERR4){ERR4=new Response(null,{status:400});ERR5=new Response(null,{status:502});redirect=Response.redirect('https://www.bing.com/',302)}
 let url=urlCache[req.url];if(!url){if(cacheSize>=64){for(const k in urlCache){delete urlCache[k];cacheSize--;break}}url=new URL(req.url);urlCache[req.url]=url;cacheSize++}
 const{host,pathname}=url
 if(req.headers.get('upgrade')==='websocket'){
