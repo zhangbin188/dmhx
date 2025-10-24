@@ -26,12 +26,12 @@ jobs:
             const fs = require('fs');
             const path = require('path');
             
-            const sourceFileName = '视频优化';
-            const outputFileName = '视频优化混淆';
+            const sourceFileName = '纯手搓443系';
+            const outputFileName = '纯手搓443系混淆';
             const sourceFilePath = path.join(process.cwd(), sourceFileName);
 
             if (!fs.existsSync(sourceFilePath)) {
-              console.error('错误：在路径 \'' + sourceFilePath + '\' 未找到源文件。请确保您的仓库根目录有名为 \'视频优化\' 的文件。');
+              console.error('错误：在路径 \'' + sourceFilePath + '\' 未找到源文件。请确保您的仓库根目录有名为 \'纯手搓443系\' 的文件。');
               process.exit(1);
             }
 
@@ -72,7 +72,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add '视频优化混淆'
+          git add '纯手搓443系混淆'
           if git diff --staged --quiet; then
             echo "No changes to commit, the obfuscated file is already up-to-date."
           else
