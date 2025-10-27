@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
-let 我的VL密钥 = '';
-let 反代IP = '';
+let 我的VL密钥 = 'edc609a8-e423-4f70-8778-b1a7c83dc958';
+let 反代IP = 'proxy.xxxxxxxx.tk:50001';
 export default {
   async fetch(访问请求) {
     const 读取路径 = decodeURIComponent(访问请求.url.replace(/^https?:\/\/[^/]+/, ''));
