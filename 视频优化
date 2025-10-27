@@ -20,6 +20,14 @@ const preferredDomains = [
     'cf.zhetengsha.eu.org',
     'baipiao.cmliussss.abrdns.com',
     'saas.sin.fan',
+    'cf.877774.xyz',
+    'snipaste5.speedip.eu.org',
+    'www.shopify.com',
+    'openai.com',
+    'japan.com',
+    'icook.tw',
+    'icook.hk',
+    'time.is',
 ];
 
 let proxyConfig = { proxyHost: '', proxyPort: null };
