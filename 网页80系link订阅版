@@ -6,7 +6,7 @@ let serverPool = ['sjc.o00o.ooo'];
 let yourUUID = '01010101-0101-4101-8101-010101010101';
 
 let cfip = [
-	'ip.sb', 'time.is', 'www.visa.cn', 'ww.visa.com.tw', 'www.visa.com.hk', 'www.visa.com.sg',
+	'ip.sb', 'time.is', 'www.visa.cn', 'www.visa.com.sg',
 	'cf.090227.xyz','cf.877774.xyz', 'cdns.doon.eu.org', 'cf.zhetengsha.eu.org'
 ]; 
 
